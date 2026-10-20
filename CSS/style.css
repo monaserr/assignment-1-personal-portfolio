@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F7FB;
+    padding: 30px 0;
+}
+
+.container {
+    width: 72%;
+    margin: auto;
+}
+
+/*Header*/
+#home .header {
+    width: 100%;
+    background-color: #0000FF;
+    text-align: center;
+    padding: 55px 30px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    margin: 0 auto 30px;
+}
+
+#home .header .header-content .main-title {
+    font-size: 48px;
+    padding: 0 0 15px 0;
+}
+
+#home .header .header-content .position {
+    font-size: 20px;
+    color: #DCEBF8;
+    padding: 0 0 25px 0;
+}
+
+#home .header .header-content .header-links .button {
+    display: inline-block;
+    color: white;
+    background-color: #0000FF;
+    border: 1px solid #DCEBF8;
+    padding: 12px 22px;
+    margin: 0 5px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/*About*/
+#about-me {
+    width: 100%;
+    background-color: white;
+    padding: 36px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 0 auto 30px;
+}
+
+#about-me .about-title .main-title {
+    color: #0000FF;
+    font-size: 28px;
+    padding: 0 0 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #DCEBFA;
+    display: block;
+}
+
+#about-me .about-content .about-img .about-profile-img {
+    float: left;
+}
+
+#about-me .about-content .about-img .about-profile-img img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 6px solid #DCEBFA;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 0 25px 0 0;
+    display: block;
+}
+
+#about-me .about-content .about-img .about-details {
+    width: 70%;
+    float: left;
+}
+
+#about-me .about-details .about-text p:first-child {
+    font-size: 17px;
+    color: #001930;
+    padding: 25px 0 20px 20px;
+    margin: 0 10px 10px 0;
+}
+
+#about-me .about-details .about-text p:first-child span {
+    color: #0000FF;
+    font-weight: bold;
+}
+
+#about-me .about-details .about-text p:nth-child(2) {
+    font-size: 15px;
+    color: #222222;
+    padding: 0 0 20px 20px;
+    margin: 0 10px 0 0;
+}
+
+#about-me .about-details .about-text a {
+    background-color: #0000FF;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 17px 24px;
+    margin-left: 20px;
+    border-radius: 6px;
+}
+
+/*Skills*/
+#skills {
+    width: 100%;
+    background-color: white;
+    padding: 36px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 0 auto 30px;
+}
+
+#skills .skills-title .main-title {
+    color: #0000FF;
+    font-size: 28px;
+    padding: 0 0 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #DCEBFA;
+    display: block;
+}
+
+#skills .skills-content .skill-box {
+    float: left;
+    width: 23%;
+    margin: 0 2% 20px 0;
+    padding: 25px;
+    background-color: #F7FAFF;
+    border: 1px solid #E3ECF8;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+#skills .skills-content .skill-box:nth-child(4n) {
+    margin-right: 0;
+}
+
+#skills .skills-content .skill-box .skill-info h3 {
+    color: #0000FF;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+    padding: 0 10px 10px 0;
+}
+
+#skills .skills-content .skill-box .skill-info p {
+    font-size: 16px;
+    color: #222222;
+    margin: 0;
+}
+
+/*Experience*/
+#experience {
+    width: 100%;
+    background-color: white;
+    padding: 36px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin: 0 auto 30px;
+}
+
+#experience .experience-title .main-title {
+    color: #0F3D75;
+    font-size: 28px;
+    padding: 0 0 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #DCEBFA;
+    display: block;
+}
+
+#experience .experience-content .job {
+    background-color: #F8FAFC;
+    border: 1px solid #E3ECF8;
+    border-left: 5px solid #0000FF;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 0 25px;
+}
+
+#experience .experience-content .job .job-logo {
+    float: left;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #DCEBFA;
+    border-radius: 14px;
+}
+
+#experience .experience-content .job .job-info {
+    float: left;
+    width: 75%;
+    margin: 0 0 0 25px;
+}
+
+#experience .experience-content .job .job-info .job-title {
+    font-size: 20px;
+    color: #222222;
+    margin: 5px 0 15px;
+    padding: 0 0 15px 0;
+}
+
+#experience .experience-content .job .job-info .job-company {
+    color: #0000FF;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+#experience .experience-content .job .job-info .job-date {
+    color: #222222;
+    margin: 0;
+}
+
+#experience .experience-content .job .job-details {
+    color: #222222;
+    margin: 20px 0 0;
+}
+
+/*Contact*/
+#contact {
+    width: 100%;
+    background-color: #0000FF;
+    padding: 36px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 30px;
+}
+
+#contact .contact-title .main-title {
+    color: white;
+    font-size: 28px;
+    padding: 0 0 20px 0;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #0000FF;
+    display: block;
+}
+
+#contact .contact-content p {
+    font-size: 16px;
+    color: white;
+    padding: 0 0 25px 0;
+    display: block;
+}
+
+#contact .contact-content .contact-links a {
+    display: inline-block;
+    color: white;
+    background-color: #0000FF;
+    border: 1px solid #DCEBF8;
+    padding: 18px 20px;
+    margin: 0 12px 0 0;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/*Footer*/
+#footer {
+    width: 100%;
+    background-color: #051A38;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#footer .footer-content p {
+    margin: 0;
+}
+
+#footer .footer-content p span {
+    color: #8FB9FF;
+    font-weight: bold;
+}
